@@ -8,9 +8,6 @@ let chunks = '';
     response.on('data', function (data) {
       callback(data);
     });
-
-  //   response.on('end', callback(chunks));
-  // });
   });
 }
 
